@@ -16,6 +16,8 @@
 		B6356C8326941757006FF742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6356C8126941757006FF742 /* LaunchScreen.storyboard */; };
 		B6356C8E26941757006FF742 /* Case_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356C8D26941757006FF742 /* Case_StudyTests.swift */; };
 		B6356C9926941757006FF742 /* Case_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356C9826941757006FF742 /* Case_StudyUITests.swift */; };
+		B6356CA726941797006FF742 /* detailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356CA626941797006FF742 /* detailedViewController.swift */; };
+		B6356CA9269417B6006FF742 /* repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356CA8269417B6006FF742 /* repos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B6356C9426941757006FF742 /* Case-StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Case-StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6356C9826941757006FF742 /* Case_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case_StudyUITests.swift; sourceTree = "<group>"; };
 		B6356C9A26941757006FF742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6356CA626941797006FF742 /* detailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailedViewController.swift; sourceTree = "<group>"; };
+		B6356CA8269417B6006FF742 /* repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				B6356C7326941755006FF742 /* AppDelegate.swift */,
 				B6356C7526941755006FF742 /* SceneDelegate.swift */,
 				B6356C7726941755006FF742 /* ViewController.swift */,
+				B6356CA626941797006FF742 /* detailedViewController.swift */,
 				B6356C7926941755006FF742 /* Main.storyboard */,
 				B6356C7F26941757006FF742 /* Assets.xcassets */,
 				B6356C8126941757006FF742 /* LaunchScreen.storyboard */,
 				B6356C8426941757006FF742 /* Info.plist */,
 				B6356C7C26941755006FF742 /* Case_Study.xcdatamodeld */,
+				B6356CA8269417B6006FF742 /* repos.swift */,
 			);
 			path = "Case-Study";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6356CA726941797006FF742 /* detailedViewController.swift in Sources */,
+				B6356CA9269417B6006FF742 /* repos.swift in Sources */,
 				B6356C7826941755006FF742 /* ViewController.swift in Sources */,
 				B6356C7426941755006FF742 /* AppDelegate.swift in Sources */,
 				B6356C7626941755006FF742 /* SceneDelegate.swift in Sources */,
